@@ -1,0 +1,111 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+
+/* Language switcher styles */
+.language-switcher {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.language-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.language-link.active {
+    font-weight: bold; /* Bold style for the active language */
+}
+
+/* Navigation styles */
+nav ul {
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the active link in the navigation */
+nav ul li a.active {
+    border-bottom: 5px solid #ff6600; /* Use an underline as the indicator */
+    padding-bottom: 6px; /* Adjust padding for the underline */
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+}
+
+/* Paper-List styles */
+ul.paper-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.paper-item {
+    margin-bottom: 20px; /* Space between papers */
+}
+
+/* Style for the title (make it bold) */
+.title {
+    font-weight: bold;
+}
+
+/* Style for links in the Links section */
+.links a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
